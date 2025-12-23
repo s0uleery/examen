@@ -8,5 +8,5 @@ export const getTypeOrmModuleOptions = (
   type: 'sqlite',
   database: config.getDatabasePath(),
   autoLoadEntities: true,
-  synchronize: false,
+  synchronize: true,
 });
