@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "s0uleery/examen"
+        IMAGE_NAME = "venecia1414/examen"
         DOCKER_TAG = "${BUILD_NUMBER}"
     }
 
